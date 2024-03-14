@@ -1,0 +1,50 @@
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* App.css */
+.container-fluid {
+  padding: 2%; /* Padding relativo al tamaño del navegador */
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  width: 60%; /* Ajustado para ocupar más espacio */
+  background-color: #e96d6d;
+  padding: 60px; /* Padding relativo al tamaño del navegador */
+  border-radius: 8px;
+  font-size: 25px;
+  box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1);
+  margin-right: 5px; /* Margen relativo al tamaño del navegador */
+}
+
+.lista-mascotas {
+  width: 35px; /* Ajustado para ocupar menos espacio */
+  margin-right: 2px; /* Separación relativa al tamaño del navegador */ /* Margen desde la parte superior relativo al tamaño del navegador */
+  padding: 5px; /* Añadido padding relativo al tamaño del navegador */
+
+}
+
+.card {
+  display: flex;
+  background-color: #9e9494;
+  border-radius: 8px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+  padding: 50px;
+  margin-bottom: 10px;
+}
+
+.card-img-top{
+  margin-right: 100px;
+}
+
+
+.btn-primary {
+  background-color: #ffffff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #e6937e;
+}
